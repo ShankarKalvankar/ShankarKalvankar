@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container" id="Resume-form">
+        <h1 class="text-center my-2">SUMMARY</h1> 
+
+
+<form class="row g-3 needs-validation" novalidate>
+    <div class="col-md-7">
+        <div class="form-group mt-3">
+            <label for="careerobjectivefield"><h3>CAREER OBJECTIVES</h3></label>
+          <textarea type="text" id="careerobjectiveField" placeholder="Enter here" class="form-control" rows="4" ></textarea>
+        </div>
+      </div>
+      
+      
+
+
+
+      <div class="col-md-7">
+        <div class="form-group mt-3">
+            <label for="declarationfield"><h3>DECLARATION</h3></label>
+          <textarea type="text" id="declarationField" placeholder="Enter here" class="form-control" rows="4" ></textarea>
+        </div>
+      </div>
+    </form>
+      
+       <button onclick="generateResume()" class="btn btn-primary btn-lg">
+        Generate Resume
+      </button>
+        
+    
+    </div>
+
+
+<!--cv template-->
+
+<div class="container" id="cv-template">
+<div class="row">
+
+<div class="col-md-4 text-center py-2 background">
+  <!--first col-->
+
+<img src="https://t4.ftcdn.net/jpg/00/64/67/63/360_F_64676383_LdbmhiNM6Ypzb3FM4PPuFP9rHe7ri8Ju.jpg" alt=""
+class="img-fluid myimg">
+
+<div class="container">
+  <p id="nameT1">suchit baburao warang</p>
+  <p id="contactT">+919594291694</p>
+  <P id="gmailT">warangsuchit@gmail.com</P>
+  <P id="addressT">1622,Anand Nagar,Kopri,
+    thane(East)-400603</P>
+
+    <hr />
+
+<p id="genderT">Gender-Male</p> 
+<p id="birthT"> Date of birth:22-06-2004</p>
+<p id="nationalityT">Nationality:-india</p>
+<p id="languagesT">LAnguages Known:Marathi,english</p><p>Hobbies:Reading,drawing</p>
+</div>
+</div>
+<div class="col-md-8 py-4">
+  <!--second col-->
+<h1 class="text-center" style="front-weight: 760">Suchit Baburao Warang</h1>
+
+<!--Educational Information card-->
+
+<div class="card mt-1">
+  <div class="card-header background">
+    <h3>Educational Information</h3>
+  </div>
+  <div class="card-body ">
+    <h4>Qualification</h4>
+    <h6>1.SSC</h6>
+    <p id="schoolnameT">School Name:-IES</p>
+    <p id="yearT1">Year-2019</p>
+    <p id="percentageT1">Percentage-78%</p>
+    <h6>2.HSC</h6>
+    <p id="collegeT">College Name:-WMJC</p>
+    <P id="yearT2"> Year-2021</P>
+    <p id="percentageT2">Percentage-86%</p>
+    <h6>3.Degreee</h6>
+    <p id="degreeT">Degree Name:-BE</p>
+    <p id="c&tT">College & University-sspm & mumbai</p>
+    <p id="passingyearT">Passing Year-2025</p>
+    <p id="percentageT3">Percentage-78%</p>
+    <h3>Relevent Cousework</h3>
+    <h5>Coding Languages Known</h5>
+    <ul id="clkT">
+      <li>
+        Lorem ipsum dolor sit amet.
+      </li>
+    </ul>
+    <ul>
+      <li>
+        Lorem ipsum dolor sit amet.
+      </li>
+    </ul>
+    <h5>Workshops</h5>
+    <ul id="workshopT">
+      <li >
+        Lorem ipsum dolor sit amet.
+      </li>
+    </ul>
+    <ul>
+      <li>
+        Lorem ipsum dolor sit amet.
+      </li>
+    </ul>
+  </div>
+</div>
+
+<!--Professional Experiance field-->
+<div class="card mt-1">
+  <div class="card-header background">
+    <h3>Professional Experiance</h3>
+  </div>
+  <div class="card-body">
+    <h4>Internship</h4>
+    <p id="compnameT">Company Name:TCS</p>
+    <p id="yearT">Year:2019</p>
+    <p id="periodT">Period:one Month</p>
+    <h4>Project Works</h4>
+    <p id="projectT">Project Name:Resume Builder</p>
+    <P id="semT">Which Semester-III</P>
+  </div>
+</div>
+
+<!--Skill & Activites Card-->
+<div class="card mt-1">
+  <div class="card-header background">
+    <h3>Skills & Achivements</h3>
+  </div>
+  <div class="card-body">
+    <h4>Skills</h4>
+    <h5>Technical Skills</h5>
+    <ul id="techskillst">
+      <li>
+        Lorem ipsum dolor sit amet.
+      </li>
+    </ul>
+    <ul>
+      <li>
+        Lorem ipsum dolor sit amet.
+      </li>
+    </ul>
+    <h5>Interpersonal Skills</h5>
+    <ul id="interskillsT">
+      <li>
+        Lorem ipsum dolor sit amet.
+      </li>
+    </ul>
+    <ul>
+      <li>
+        Lorem ipsum dolor sit amet.
+      </li>
+    </ul>
+    <h4>Achivements</h4>
+    <ul id="achivementT">
+      <li>
+        Lorem ipsum dolor sit amet.
+      </li>
+    </ul>
+    <ul>
+      <li>
+        Lorem ipsum dolor sit amet.
+      </li>
+    </ul>
+    <h4>Extra-Curricular Activities</h4>
+    <ul id="extracurrT">
+      <li>
+        Lorem ipsum dolor sit amet.
+      </li>
+    </ul>
+    <ul>
+      <li>
+        Lorem ipsum dolor sit amet.
+      </li>
+    </ul>
+  </div>
+</div>
+
+    <!--summary card-->
+    <div class="card mt-1">
+      <div class="card-header background">
+        <h3>Summary</h3>
+      </div>
+      <div class="card-body">
+        <h4>Career Objectives</h4>
+        <ul id="careerobjT">
+          <li>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quaerat provident, magnam officiis ut voluptas illum. Optio natus quo voluptatem amet porro, ratione vero nam beatae iure, consectetur ea asperiores.
+
+          </li>
+        </ul>
+        <h4>Declaration</h4>
+        <ul id="declarationT">
+          <li>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quaerat provident, magnam officiis ut voluptas illum. Optio natus quo voluptatem amet porro, ratione vero nam beatae iure, consectetur ea asperiores.
+            
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container mt-3 text-center">
+      <button onclick="printresume()" class="btn background">Print Resume</button>
+    </div>
+
+
+</div>
+</div>
+
+
+</div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>

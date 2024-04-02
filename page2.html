@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body id="cv2-form">
+    <div class="container" >
+        <h1 class="text-center my-2">EDUCATIONAL INFORMATION</h1> 
+<h4> QUALIFICATIONS</h4>
+
+<div class="form-group mt-4">
+    <h6>1.SSC</h6>
+</div>
+
+        <form class="row g-3 needs-validation" novalidate>
+            <div class="col-md-3">
+              <div class="form-group mt-1">
+            
+                <label for="boardField">BOARD</label>
+                <input type="text" id="boardField" placeholder="Enter here" class="form-control">
+              </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="form-group mt-1">
+              <label for="passingyearField">PASSING YEAR</label>
+              <input type="text" id="passingyearField" placeholder="Enter here" class="form-control">
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="form-group mt-1">
+              <label for="percentageField">PERCENTAGE</label>
+              <input type="text" id="percentageField" placeholder="Enter here" class="form-control">
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="form-group mt-1">
+              <label for="schoolField">SCHOOL NAME</label>
+              <input type="text" id="schoolField" placeholder="Enter here" class="form-control">
+            </div>
+        </div>
+        
+        <div class="form-group mt-2">
+            <h6>2.HSC</h6>
+        </div>
+        
+        <form class="row g-3 needs-validation" novalidate>
+            <div class="col-md-3">
+              <div class="form-group ">
+            
+                <label for="boardField">BOARD</label>
+                <input type="text" id="boardField" placeholder="Enter here" class="form-control">
+              </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="form-group ">
+              <label for="passingyearField">PASSING YEAR</label>
+              <input type="text" id="passingyearField" placeholder="Enter here" class="form-control">
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="form-group ">
+              <label for="percentageField">PERCENTAGE</label>
+              <input type="text" id="percentageField" placeholder="Enter here" class="form-control">
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="form-group ">
+              <label for="collegeField">COLLEGE NAME</label>
+              <input type="text" id="collegeField" placeholder="Enter here" class="form-control">
+            </div>
+        </div>
+
+        <div class="form-group mt-2">
+            <h6>3.Degree</h6>
+        </div>
+
+          
+        <form class="row g-3 needs-validation" novalidate>
+            <div class="col-md-3">
+              <div class="form-group ">
+            
+                <label for="boardField">DEGREE NAME</label>
+                <input type="text" id="boardField" placeholder="Enter here" class="form-control">
+              </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="form-group ">
+              <label for="passingyearField">PASSING YEAR</label>
+              <input type="text" id="passingyearField" placeholder="Enter here" class="form-control">
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="form-group ">
+              <label for="percentageField">PERCENTAGE</label>
+              <input type="text" id="percentageField" placeholder="Enter here" class="form-control">
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="form-group ">
+              <label for="collegeField">COLLEGE & UNIVERSITY NAME</label>
+              <input type="text" id="collegeField" placeholder="Enter here" class="form-control">
+            </div>
+        </div>
+
+        <h4>Relevant Coursework</h4>
+
+<form class="row g-3 needs-validation" novalidate>
+        <div class="col-md-5">
+        <div class="form-group mt-2" id="clk">
+          <label for="">CODING LANGUAGES KNOWN</label>
+        <textarea  placeholder="Enter here" class="form-control clkField" rows="2" ></textarea>
+
+         <div class="container text-center mt-2" id="clkAddButton">
+          <button onclick="addNewCLKField()" class="btn btn-dark btn-sm">Add</button>
+         </div>
+
+      </div>
+    </div>
+</form>
+
+<form class="row g-3 needs-validation" novalidate>
+  <div class="col-md-5">
+  <div class="form-group mt-2" id="W">
+    <label for="">WORKSHOPS</label>
+  <textarea  placeholder="Enter here" class="form-control wField"  ></textarea>
+
+   <div class="container text-center mt-2" id="WAddButton">
+    <button onclick="addNewWField()" class="btn btn-dark btn-sm">Add</button>
+   </div>
+
+</div>
+</div>
+</form>
+
+</form>
+
+<div class="d-grid gap-2 d-md-flex justify-content-md-end ">
+    <a href="http://127.0.0.1:5500/page3.html" class="btn btn-primary  "  role="button" >Next</a>
+    </div>
+  
+
+ 
+<a href="http://127.0.0.1:5500/page1.html" class="btn btn-primary " role="button" >Previous</a>
+
+
+    
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> 
+<script   src="script.js"></script>
+</body>
+</html>
